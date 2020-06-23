@@ -39,7 +39,7 @@ The HOME app was primarily designed and build as a mobile app which means not op
         </tr>
         <tr>
             <td align="center">Off Shift</td>
-            
+            <td></td>
          </tr>
        <tr>
             <td>Off shift employees can view their upcoming shift schedule. Off shift employees cannot view and access tasks.</td>
