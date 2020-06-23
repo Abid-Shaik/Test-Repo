@@ -62,7 +62,7 @@ The HOME app was primarily designed and build as a mobile app which means not op
 ## Prerequisites
 
 1. An Azure Active Directory (Azure AD) subscription and the following resources:
-    * Azure Service
+    * <a href="https://github.com/Abid-Shaik/Test-Repo/edit/master/README.md">Azure Service</a>
     * Azure App Service Plan
     * Application Insights
 2. Microsoft Teams Shifts app enabled in Teams. Users must be a member of a team to access Shifts information.
