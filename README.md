@@ -16,7 +16,7 @@ The HOME app was primarily designed and build as a mobile app which means not op
     <tbody>
         <tr>
             <td align="center">On Shift</td>
-            <td rowspan="7"><img src="/ReadmeImages/image.png" alt="Optional Title"></td>
+            <td rowspan="6"><img src="/ReadmeImages/image(6).png" alt="Optional Title"></td>
          </tr>
        <tr>
             <td>Employees can view their current shift schedule and current assigned tasks under the Home tab.</td>
@@ -35,16 +35,19 @@ The HOME app was primarily designed and build as a mobile app which means not op
         </tr>
        <tr>
             <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
+           <td><img src="/ReadmeImages/image(1).png" alt="Optional Title"></td>
         </tr>
         <tr>
             <td align="center">Off Shift</td>
-            <td rowspan="7"><img src="" alt="Optional Title"></td>
+            <td></td>
          </tr>
        <tr>
             <td>Off shift employees can view their upcoming shift schedule. Off shift employees cannot view and access tasks.</td>
+           <td><img src="/ReadmeImages/image(2).png" alt="Optional Title"></td>
         </tr>
        <tr>
-            <td>Off shifts employees do not have access to Learning tab.</td>
+           <td>Off shifts employees do not have access to Learning tab.</td>
+           <td><img src="/ReadmeImages/image(3).png" alt="Optional Title"></td>
         </tr>
       </tbody>
 </table>
