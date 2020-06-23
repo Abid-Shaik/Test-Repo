@@ -15,8 +15,8 @@ The HOME app was primarily designed and build as a mobile app which means not op
     </thead>
     <tbody>
         <tr>
-            <td align="center">On Shift</td>
-            <td rowspan="6"><img src="/ReadmeImages/image(6).png" alt="Optional Title"></td>
+            <td class="col-md-8" align="center">On Shift</td>
+            <td rowspan="6"><img src="/ReadmeImages/image(6).png" alt="Home App Screen" style="width: 100%;"></td>
          </tr>
        <tr>
             <td>Employees can view their current shift schedule and current assigned tasks under the Home tab.</td>
@@ -35,7 +35,7 @@ The HOME app was primarily designed and build as a mobile app which means not op
         </tr>
        <tr>
             <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
-           <td><img src="/ReadmeImages/image (1).png" alt="Optional Title"></td>
+           <td><img src="/ReadmeImages/image (1).png" alt="Home App Screen"></td>
         </tr>
         <tr>
             <td align="center">Off Shift</td>
@@ -131,6 +131,9 @@ https://github.com/OfficeDev/microsoft-teams-company-communicator-app
 REST API- https://myaccount.table.core.windows.net/MyTable()  
 
 2. Get the Table service SAS by going through the Shared Access Token section.
+
+     <img src="/ReadmeImages/image (4).png" alt="Optional Title">
+     
 3. Ensure to set the StorageTableEndPoint value in appsettings. json in the below format.
 
 https://myaccount.table.core.windows.net/MyTable()?<Table service SAS URL>  
