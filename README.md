@@ -61,11 +61,10 @@ The HOME app was primarily designed and build as a mobile app which means not op
     * <a href="https://azure.microsoft.com/en-us/services/app-service/">Azure Service</a>
    * <a href="https://docs.microsoft.com/en-us/azure/app-service/overview">Azure App Service Plan</a>
    * <a href="https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview">Application Insights</a>
-   
-2. Microsoft Teams Shifts app enabled in Teams. Users must be a member of a team to access Shifts information.
-3. Microsoft Teams Tasks app enabled in Teams. Users must be a member of a team to access Tasks information.
-4. OAuth 2.0 identity provider configured for Teams. This is required to access a user’s profile information from Azure AD and Microsoft Graph.
-5. Install your desired custom apps. 
+2. <a href="https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams">Microsoft Teams Shifts</a> app enabled in Teams. Users must be a member of a team to access Shifts information.
+3. <a href="https://docs.microsoft.com/en-us/microsoftteams/manage-tasks-app">Microsoft Teams Tasks</a> app enabled in Teams. Users must be a member of a team to access Tasks information.
+4. <a href="https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/authentication/configure-identity-provider">OAuth 2.0 identity provider</a> configured for Teams. This is required to access a user’s profile information from Azure AD and Microsoft Graph.
+5. Install your desired custom apps.
 
 ![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
 
