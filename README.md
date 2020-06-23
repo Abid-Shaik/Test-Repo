@@ -35,7 +35,7 @@ The HOME app was primarily designed and build as a mobile app which means not op
         </tr>
        <tr>
             <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
-           <td><img src="/ReadmeImages/image(1).png" alt="Optional Title"></td>
+           <td><img src="/ReadmeImages/image (1).png" alt="Optional Title"></td>
         </tr>
         <tr>
             <td align="center">Off Shift</td>
@@ -43,11 +43,11 @@ The HOME app was primarily designed and build as a mobile app which means not op
          </tr>
        <tr>
             <td>Off shift employees can view their upcoming shift schedule. Off shift employees cannot view and access tasks.</td>
-           <td><img src="/ReadmeImages/image(2).png" alt="Optional Title"></td>
+           <td><img src="/ReadmeImages/image (2).png" alt="Optional Title"></td>
         </tr>
        <tr>
            <td>Off shifts employees do not have access to Learning tab.</td>
-           <td><img src="/ReadmeImages/image(3).png" alt="Optional Title"></td>
+           <td><img src="/ReadmeImages/image (3).png" alt="Optional Title"></td>
         </tr>
       </tbody>
 </table>
@@ -177,12 +177,10 @@ Below is the instruction to create and integrate Paystub and Rewards sample cust
 Paystubs and Rewards custom app source code is included in the HOME app solution. Use the manifests to deploy the applications into Teams.
 
 #### Paystub manifest:
-
-------image -----
+![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
 
 #### Rewards manifest:
-
-------image -----
+![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
 
 ##### Other sample custom apps
 Below custom apps are not included in HOME app source code solution. Follow the instruction to create and integrate SharePoint Framework such as News or any Power Apps into HOME app. 
