@@ -7,6 +7,38 @@ The HOME app is a personal branded landing experience which can pinned on the mo
 
 The HOME app was primarily designed and build as a mobile app which means not optimized for desktop view.
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="2"> Home app Scenarios</th>
+         </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td >On Shift</td>
+            <td rowspan="7"><img src="/ReadmeImages/image.png" alt="Optional Title"></td>
+         </tr>
+       <tr>
+            <td>Employees can view their current shift schedule and current assigned tasks under the Home tab.</td>
+        </tr>
+       <tr>
+            <td>Employees can view the latest companywide announcements.</td>
+        </tr>
+       <tr>
+            <td>Team members in the same shift, can chat and communicate using Teams chat.</td>
+        </tr>
+       <tr>
+            <td>Employees can communicate and greet new team members using Teams 1:1 chat.</td>
+        </tr>
+       <tr>
+            <td>Employees can communicate and greet new team members using Teams 1:1 chat capability. </td>
+        </tr>
+       <tr>
+            <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
+        </tr>
+       </tbody>
+</table>
+
 |              Stage | Direct Products | ATP Yields |
 | -----------------: | --------------: | ---------: |
 |         Glycolysis |           2 ATP |            |
@@ -38,7 +70,8 @@ The HOME app was primarily designed and build as a mobile app which means not op
 4. OAuth 2.0 identity provider configured for Teams. This is required to access a user’s profile information from Azure AD and Microsoft Graph.
 5. Install your desired custom apps. 
 
------------Image----------
+![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
+
 
 ## Authentication and Single Sign on (SSO)
 
@@ -117,7 +150,9 @@ https://docs.microsoft.com/en-us/graph/api/group-list-members?view=graph-rest-1.
 
 Deep linking has been used for the Chat integration, kindly use the below format for deep linking to a chat
 
-https://teams.microsoft.com/l/chat/0/0?users=<user1>,<user2>,...&topicName=<chat name>&message=<precanned text> ---------------------> need to change
+```
+https://teams.microsoft.com/l/chat/0/0?users=<user1>,<user2>,...&topicName=<chat name>&message=<precanned text>
+```
 
 Please go through the below link for more information on deep linking.
 
