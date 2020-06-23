@@ -7,16 +7,15 @@ The HOME app is a personal branded landing experience which can pinned on the mo
 
 The HOME app was primarily designed and build as a mobile app which means not optimized for desktop view.
 
-|   |   |
-|---|---|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|              Stage | Direct Products | ATP Yields |
+| -----------------: | --------------: | ---------: |
+|         Glycolysis |           2 ATP |            |
+|                 ^^ |          2 NADH |   3--5 ATP |
+| Pyruvaye oxidation |          2 NADH |      5 ATP |
+|  Citric acid cycle |          2 ATP              ||
+|                 ^^ |          6 NADH |     15 ATP |
+|                 ^^ |          2 FADH |      3 ATP |
+|                                   30--32 ATP    |||
 
 
 
@@ -24,3 +23,5 @@ The HOME app was primarily designed and build as a mobile app which means not op
 | :---: | :---: | :---: |
 | Seconds | 301 | 283 |
 | Seconds | 301 | 283 |
+
+
