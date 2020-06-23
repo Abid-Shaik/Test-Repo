@@ -177,10 +177,10 @@ Below is the instruction to create and integrate Paystub and Rewards sample cust
 Paystubs and Rewards custom app source code is included in the HOME app solution. Use the manifests to deploy the applications into Teams.
 
 #### Paystub manifest:
-![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
+![Alt text](/ReadmeImages/image(4).png?raw=true "Optional Title")
 
 #### Rewards manifest:
-![Alt text](/ReadmeImages/image.png?raw=true "Optional Title")
+![Alt text](/ReadmeImages/image(5).png?raw=true "Optional Title")
 
 ##### Other sample custom apps
 Below custom apps are not included in HOME app source code solution. Follow the instruction to create and integrate SharePoint Framework such as News or any Power Apps into HOME app. 
