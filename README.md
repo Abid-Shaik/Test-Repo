@@ -48,6 +48,9 @@ currently not optimized for desktop clients.
             <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
            <td><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/2.png" alt="Home App Screen"></td>
         </tr>
+         <tr>
+            <th colspan="2"></th>
+         </tr>
         <tr>
             <td align="center">Off Shift</td>
             <td rowspan="2"><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/3.png" alt="Optional Title"></td>
