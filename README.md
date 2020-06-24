@@ -1,4 +1,4 @@
-**Microsoft Teams HOME app Overview**
+Microsoft Teams HOME app overview
 =====================================
 
 The Teams Branded Experience (aka HOME app), together with custom
@@ -17,7 +17,6 @@ experience for any user.
 
 The HOME app was primarily designed and built as a mobile app and is
 currently not optimized for desktop clients.
-
 
 <table>
     <thead>
@@ -51,10 +50,11 @@ currently not optimized for desktop clients.
         </tr>
         <tr>
             <td align="center">Off Shift</td>
-            <td rowspan="2"><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/3.png" alt="Optional Title"></td>
+            <td></td>
          </tr>
        <tr>
             <td>Off shift employees can view their upcoming shift schedule. Off shift employees cannot view and access tasks.</td>
+           <td><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/3.png" alt="Optional Title"></td>
         </tr>
        <tr>
            <td>Off shifts employees do not have access to Learning tab.</td>
@@ -76,14 +76,14 @@ Prerequisites
 1.  An Azure Active Directory (Azure AD) subscription and the following
     resources:
 
--   [Azure
-    Service](https://azure.microsoft.com/en-us/services/app-service/)
+    -   [Azure
+        Service](https://azure.microsoft.com/en-us/services/app-service/)
 
--   [Azure App Service
-    Plan](https://docs.microsoft.com/en-us/azure/app-service/overview)
+    -   [Azure App Service
+        Plan](https://docs.microsoft.com/en-us/azure/app-service/overview)
 
--   [Application
-    Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+    -   [Application
+        Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
 
 2.  [Microsoft Teams
     Shifts](https://docs.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)
@@ -172,71 +172,71 @@ Deployment
 
 -   If your account gives you access to more than one tenant, select your account in the upper right corner. Set your portal session to your desired Azure AD tenant
 
--   Under **Azure services** on the **Home** page, select **App registrations**.
+-   Under Azure services on the Home page, select App registrations.
 
--   Select **New registration** from the top navigation bar. You will be taken to the **Register an application** page.
+-   Select New registration from the top navigation bar. You will be taken to the Register an application page.
 
--   Enter a meaningful application display name in the **Name** field.
+-   Enter a meaningful application display name in the Name field.
 
--   Specify **who can use the application**, as follows:
+-   Specify who can use the application, as follows:
 
--  Accounts in any organizational directory (Any Azure Ad directory --Multitenant) and personal Microsoft accounts.**
+-  Accounts in any organizational directory (Any Azure Ad directory --Multitenant) and personal Microsoft accounts.
 
--   Under **Redirect URI** select **Public client/native (mobile & desktop).Then enter the destination URI that will be accepted when returning authentication responses (tokens)
+-   Under Redirect URI select Public client/native (mobile & desktop).Then enter the destination URI that will be accepted when returning authentication responses (tokens)
     after successfully authenticating users. 
 
--   Select the **Register** button. You'll be taken to the app\'s **Overview** page. Copy the **Application (client) ID**; you'll
-     need it later. Verify that **Supported account types** is set to **Multiple organizations** 
+-   Select the Register button. You'll be taken to the app\'s Overview page. Copy the Application (client) ID; you'll
+     need it later. Verify that Supported account types is set to Multiple organizations 
 
 ### Add Microsoft Graph API permissions
 
 You\'ll need to add additional permissions in order to use Microsoft
 Graph notifications.
 
--   On the Overview page, Choose **API permissions** -\> **Add a
-    permission**
+-   On the Overview page, Choose API permissions -\> Add a
+    permission
 
--   Select **Microsoft Graph** -\> **Delegated permissions**.
+-   Select Microsoft Graph -\> Delegated permissions.
 
--   Select **Group** -\> **Group.Read.All**  (Allows application to read
+-   Select Group -\> Group.Read.All  (Allows application to read
     shifts, tasks of logged in user).
 
--   Select **Group** -\> **User.Read.All** (Allows application to
+-   Select Group -\> User.Read.All (Allows application to
     read/write shifts, tasks of logged in user).
 
--   Select **Microsoft Graph** -\> **Application permissions**.
+-   Select Microsoft Graph -\> Application permissions.
 
--   Select **Application** -\> **User.ReadWrite.All** (Allows
+-   Select Application -\> User.ReadWrite.All (Allows
     application to read/write user data).
 
--   Select Application -\> **Directory.Read.All**
+-   Select Application -\> Directory.Read.All
 
 ### Publish your HOME app to your Azure subscription using Visual Studio 
 
 -   Download the HOME code from the repository and open in Visual studio
     explorer. 
 
--   In Visual Studio **Solution Explorer**, right-click the project and
-    choose **Publish** (or use the **Build** \> **Publish** menu item). 
+-   In Visual Studio Solution Explorer, right-click the project and
+    choose Publish (or use the Build \> Publish menu item). 
 
--   In the **Publish** dialog, select **Azure**.
+-   In the Publish dialog, select Azure.
 
--   Choose **Azure App Service (Windows)** and select the **Next**
+-   Choose Azure App Service (Windows) and select the Next
     button.
 
--   Sign in with you Azure account, if necessary. Select **Create a new
-    Azure App Service.**
+-   Sign in with you Azure account, if necessary. Select Create a new
+    Azure App Service.
 
--   In the **Create Azure App Service (Windows)** dialog, the **App
-    Name**, **Resource Group**, and **App Service Plan** entry fields
+-   In the Create Azure App Service (Windows) dialog, the App
+    Name, Resource Group, and App Service Plan entry fields
     are populated. You can keep these names or change them. Complete the
-    necessary app setting values: **Azure client Id** (App id)
-    **SharePoint client Id**, **List Id**, **Deep**
+    necessary app setting values: Azure client Id (App id)
+    SharePoint client Id, List Id, Deep
 
--   **Link URL** and all required **app Ids** which we need to deep
+-   Link URL and all required app Ids which we need to deep
     link.
 
--   When ready, select **Create**.
+-   When ready, select Create.
 
 ### Create a HOME Teams app manifest
 
@@ -251,11 +251,10 @@ Business app catalog or to AppSource.
 
 ### Install the HOME Teams app manifest into Teams
 
-Install the HOME app manifest into Teams. [Learn how to distribute
-Microsoft Teams
+Install the HOME app manifest into Teams. [Learn how to distribute Microsoft Teams
 app](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/overview).
 
-**Legal notice**
+Legal notice
 ----------------
 
 This app template is provided under the [MIT
@@ -287,7 +286,7 @@ following:
     and all associated requirements such as including your own privacy
     statement and terms of use for your app.
 
-**Contributing**
+Contributing
 ----------------
 
 This project welcomes contributions and suggestions. Most contributions
