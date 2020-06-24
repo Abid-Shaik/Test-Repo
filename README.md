@@ -26,7 +26,7 @@ currently not optimized for desktop clients.
     </thead>
     <tbody>
         <tr>
-            <td class="col-md-8" align="center">On Shift</td>
+            <td class="col-md-8" style="color:blue;" align="center">On Shift</td>
             <td rowspan="6"><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/1.png" alt="Home App Screen" style="width: 100%;"></td>
          </tr>
        <tr>
