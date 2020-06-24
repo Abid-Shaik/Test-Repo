@@ -46,15 +46,15 @@ currently not optimized for desktop clients.
         </tr>
        <tr>
             <td>Employees can access other apps such as PayStubs and Rewards through the HOME application. </td>
-           <td><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/2.png" alt="Home App Screen"></td>
+           <td rowspan="2"><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/2.png" alt="Home App Screen"></td>
         </tr>
         <tr>
             <td align="center">Off Shift</td>
-            <td></td>
+             <td><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/3.png" alt="Optional Title"></td>
          </tr>
        <tr>
             <td>Off shift employees can view their upcoming shift schedule. Off shift employees cannot view and access tasks.</td>
-           <td><img src="https://github.com/msft-teams/tools/blob/master/HOMEApp/Brandhome/Source/wwwroot/images/readmeimages/3.png" alt="Optional Title"></td>
+          
         </tr>
        <tr>
            <td>Off shifts employees do not have access to Learning tab.</td>
